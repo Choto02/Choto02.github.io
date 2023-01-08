@@ -1,9 +1,11 @@
 var config = {
-    apiKey: "AIzaSyCiFb0LRM8yFDKBfN0ZEqPRmEadr7I4Jlo",
-    authDomain: "playorbit-fbfaf.firebaseapp.com",
-    databaseURL: "https://playorbit-fbfaf.firebaseio.com",
-    projectId: "playorbit-fbfaf",
-    storageBucket: "playorbit-fbfaf.appspot.com",
-    messagingSenderId: "107154671391"
+    apiKey: "AIzaSyCVq89YpaGUtlQuydxHI5YNSjloZ7ZJHco",
+    authDomain: "cybermarket-febba.firebaseapp.com",
+    projectId: "cybermarket-febba",
+    storageBucket: "cybermarket-febba.appspot.com",
+    messagingSenderId: "856890256371",
+    appId: "1:856890256371:web:e9d9a22157ed59dbe60086"
   };
   firebase.initializeApp(config);
+
+
