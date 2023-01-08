@@ -53,7 +53,7 @@ linkLogin.addEventListener('click', e => {
 
 //Log the user
 submitL.addEventListener('click', e => {
-  loadingPanel.style = 'display:block';
+  //loadingPanel.style = 'display:block';
 
   let email = emailL.value;
   let password = passwordL.value;
@@ -63,7 +63,7 @@ submitL.addEventListener('click', e => {
   var errorCode = error.code;
   var errorMessage = error.message;
 
-  loadingPanel.style = 'display:none';
+  //loadingPanel.style = 'display:none';
 
   errorHandlerL.innerHTML = errorMessage;
   // ...
@@ -72,7 +72,7 @@ submitL.addEventListener('click', e => {
 
 //register the user
 submitS.addEventListener('click', e => {
-  loadingPanel.style  ='display:block';
+  //loadingPanel.style  ='display:block';
 
   let email = emailS.value;
   let password = passwordS.value;
@@ -82,7 +82,7 @@ submitS.addEventListener('click', e => {
  var errorCode = error.code;
  var errorMessage = error.message;
 
- loadingPanel.style  ='display:none';
+ //loadingPanel.style  ='display:none';
 
  errorHandlerS.innerHTML = errorMessage;
  // ...
@@ -96,7 +96,7 @@ submitS.addEventListener('click', e => {
 firebase.auth().onAuthStateChanged(function(user) {
   if (user) {
     // User is signed in.
-    loadingPanel.style  ='display:none';
+    //loadingPanel.style  ='display:none';
 
     var displayName = user.displayName;
     var email = user.email;
@@ -131,7 +131,7 @@ firebase.auth().onAuthStateChanged(function(user) {
 
     // ...
   } else {
-    loadingPanel.style = 'display:none';
+    //loadingPanel.style = 'display:none';
     // User is signed out.
     // ...
   }
